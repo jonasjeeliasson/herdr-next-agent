@@ -100,7 +100,7 @@ def main():
             target = ranked[(i + 1) % len(ranked)]
             break
 
-    run_herdr("agent", "focus", target["terminal_id"])
+    run_herdr("agent", "focus", target["pane_id"])
 
 
 if __name__ == "__main__":
